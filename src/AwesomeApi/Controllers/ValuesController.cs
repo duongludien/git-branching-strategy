@@ -8,7 +8,7 @@ namespace AwesomeApi.Controllers
         [HttpGet]
         public IEnumerable<int> Get()
         {
-            return new [] { 69, 96 };
+            return new [] { 69, 97 };
         }
     }
 }
