@@ -6,9 +6,9 @@ namespace AwesomeApi.Controllers
     public class ValuesController : ApiController
     {
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<int> Get()
         {
-            return new [] { "value1", "value2" };
+            return new [] { 69, 96 };
         }
     }
 }
