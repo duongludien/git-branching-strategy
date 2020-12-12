@@ -6,9 +6,7 @@ using Microsoft.Extensions.Logging;
 
 namespace AwesomeApi.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : ApiController
     {
         private static readonly string[] Summaries = new[]
         {
